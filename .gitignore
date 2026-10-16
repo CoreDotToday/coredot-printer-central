@@ -1,0 +1,17 @@
+# 소스는 비공개 저장소 (coredot-printer-central-src) — 받아 쓸 때 이 안의 src/ 에 두어도 올라가지 않게
+src/
+
+# 빌드 결과물 — exe 는 Releases 로만
+dist/
+build/
+*.spec
+*.exe
+
+# Python · 편집기 · OS
+__pycache__/
+.venv/
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
